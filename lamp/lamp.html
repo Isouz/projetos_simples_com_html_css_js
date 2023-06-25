@@ -12,11 +12,12 @@
         <h1>Acenda ou apague a lampada,</h1>
         <h2>mas tome cuidado, ela é frágil.</h2>
         <div class="imagens">
-            <img src="imagens/desligada.jpg" alt="desligada">
+            <img src="imagens/desligada.jpg" alt="desligada" id="lampada" onclick="quebra()">
         </div>
         <div class="buttons">
-            <input type="button" value="Ligar" class="on"> <input type="button" value="Desligar" class="off">
+            <input type="button" value="Ligar" id="on" onclick="acender()"> <input type="button" value="Desligar" id="off" onclick="apagar()">
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
