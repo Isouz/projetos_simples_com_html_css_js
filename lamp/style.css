@@ -14,11 +14,14 @@
 }
 
 h1 {
+    font-size: 1.8em;
     margin-top: 20px;
 }
 
 h2 {
+    font-size: 1.4em;
     margin-bottom: 10px;
+    
 }
 
 img {
@@ -30,6 +33,7 @@ img {
 }
 
 #on, #off {
+    margin: 10px;
     font-size: 1em;
     font-weight: bold;
     width: 85px;
