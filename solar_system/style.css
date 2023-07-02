@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /*overflow: hidden;*/   
+}
+
+div {
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    border-radius: 50%;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+/*------Astros------*/
+
+#sol {
+    height: 5.12vw;
+    width: 5.12vw;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px yellow;
+}
+
+#mer {
+    top: 100%;
+    left: 50%;
+    height: 0.73vw;
+    width: 0.73vw;
+    background-color: #C28E6A;
+}
+
+#ven {
+    top: 100%;
+    left: 50%;
+    height: 1.46vw;
+    width: 1.46vw;
+    background-color: #CC7016;
+}
+
+#ter {
+    display: flex;
+    top: 100%;
+    left: 50%;
+    height: 1.61vw;
+    width: 1.61vw;
+    background-color: blue; 
+    animation: anim_orbit 2.7s linear infinite;
+} 
+
+#lua {
+    display: flex;
+    top: 160%;
+    left: 50%;
+    height: 0.73vw;
+    width: 0.73vw;
+    background-color: silver; 
+    box-shadow: 0px 0px 3px silver;
+}
+
+#mar {
+    top: 100%;
+    left: 50%;
+    height: 1.39vw;
+    width: 1.39vw;
+    background-color: rgb(255, 51, 0);  
+}
+
+#jup {
+    top: 100%;
+    left: 50%;
+    height: 3.22vw;
+    width: 3.22vw;
+    background-color: rgb(172, 119, 5);  
+}
+
+#sat {
+    top: 100%;
+    left: 50%;
+    height: 2.85vw;
+    width: 2.85vw;
+    background-color: rgb(245, 228, 81);  
+}
+
+#ura {
+    top: 100%;
+    left: 50%;
+    height: 2.34vw;
+    width: 2.34vw;
+    background-color: rgb(106, 247, 247);  
+}
+
+#net {
+    top: 100%;
+    left: 50%;
+    height: 2.34vw;
+    width: 2.34vw;
+    background-color: #2f52ec;  
+}
+
+/*-----Orbitas------*/
+
+.orbit_mer {
+    height:11.71vw;
+    width: 11.71vw;
+    border: 0.8px solid silver;
+    animation: anim_orbit 8.8s linear infinite;
+    
+}
+
+.orbit_ven {
+    height:15.37vw;
+    width: 15.37vw;
+    border: 1px solid silver;
+    animation: anim_orbit 24.3s linear infinite;
+}
+
+.orbit_ter {
+    height:23.06vw;
+    width: 23.06vw;
+    border: 1px solid silver;
+    animation: anim_orbit 36.5s linear infinite;
+}
+
+.orbit_mar {
+    height:30.74vw;
+    width: 30.74vw;
+    border: 1px solid silver;
+    animation: anim_orbit 68.7s linear infinite;
+}
+
+.orbit_jup {
+    height:38.06vw;
+    width: 38.06vw;
+    border: 1px solid silver;
+    animation: anim_orbit 438.0s linear infinite;
+}
+
+.orbit_sat {
+    height:45.38vw;
+    width: 45.38vw;
+    border: 1px solid silver;
+    animation: anim_orbit 1075.5s linear infinite;
+}
+
+.orbit_ura {
+    height:51.24vw;
+    width: 51.24vw;
+    border: 1px solid silver;
+    animation: anim_orbit 3068.7s linear infinite;
+}
+
+.orbit_net {
+    height:57.10vw;
+    width: 57.10vw;
+    border: 1px solid silver;
+    animation: anim_orbit 6019.0s linear infinite;
+}
+
+
+@keyframes anim_orbit {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform:translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/*
+Sol        --
+Mercúrio   8.8s
+Vênus      24.3s
+Terra      36.5s
+Lua        2.7s
+Marte      68.7s
+Júpiter    438.0s
+Saturno    1075.5s
+Urano      3068.7s
+Netuno     6019.0s
+*/
