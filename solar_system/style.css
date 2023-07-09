@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -22,6 +23,11 @@ div {
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
+}
+
+p {
+    color: white;
+    display: inline-block;
 }
 
 /*------Astros------*/
@@ -169,6 +175,43 @@ div {
 }
 
 
+/*-----Nomes------*/
+
+#mer p {
+    animation: name_orbit 8.8s linear infinite;
+}
+
+#ven p {
+    animation: name_orbit 24.3s linear infinite;
+}
+
+#ter p {
+    animation: name_orbit 36.5s linear infinite;
+}
+
+#mar p {
+    animation: name_orbit 68.7s linear infinite;
+}
+
+#jup p {
+    animation: name_orbit 438.0s linear infinite;
+}
+
+#sat p {
+    animation: name_orbit 1075.5s linear infinite;
+}
+
+#ura p {
+    animation: name_orbit 3068.7s linear infinite;
+}
+
+#net p {
+    animation: name_orbit 6019.0s linear infinite;
+}
+
+
+/*-----Animações------*/
+
 @keyframes anim_orbit {
     0% {
         transform: translate(-50%, -50%) rotate(0deg);
@@ -177,6 +220,16 @@ div {
         transform:translate(-50%, -50%) rotate(360deg);
     }
 }
+
+@keyframes name_orbit {
+    0% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+        transform:translate(-50%, -50%) rotate(0deg);
+    }
+}
+
 
 /*
 Sol        --
