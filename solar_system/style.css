@@ -185,8 +185,11 @@ p {
     animation: name_orbit 24.3s linear infinite;
 }
 
-#ter p {
-    animation: name_orbit 2.7s linear infinite;
+.orbit_ter p {
+    position: relative;
+    top: 100%;
+    left: 65%;
+    animation: name_orbit 36.5s linear infinite;
 }
 
 #mar p {
