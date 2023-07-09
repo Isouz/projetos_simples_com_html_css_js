@@ -15,6 +15,16 @@ body {
     /*overflow: hidden;*/   
 }
 
+span {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    margin: 10px;
+}
+
+
 div {
     display: inline-block;
     position: absolute;
@@ -26,8 +36,10 @@ div {
 }
 
 p {
+    visibility: hidden;
     color: white;
     display: inline-block;
+    text-shadow: 1px 1px 1px black;
 }
 
 /*------Astros------*/
