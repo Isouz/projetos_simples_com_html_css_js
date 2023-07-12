@@ -1,19 +1,21 @@
 
-/*
-let active = false
 
-function description() {
-    var buttom = document.getElementsByClassName("material-symbols-outlined")
+var active = false
+
+function descricao() {
+    
+    var buttom = document.getElementsByClassName("material-symbols-outlined")[0]
+    var nome = document.querySelector('p.nome')
+    
     if (active == false) {
         active = true
+        buttom.innerText = 'toggle_on'
+        nome.style.visibility = 'visible'   
+        
     } else {
         active = false
-    }
-
-    if (active == true) {
-        mudar botao para ligado
-    } else {
-        mudar botao para desligado
+        buttom.innerText = 'toggle_off'
+        nome.style.visibility = 'hidden'
     }
 }
-*/  
+
