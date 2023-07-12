@@ -8,11 +8,13 @@
 }
 
 body {
+    display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     background-color: black;
-    /*overflow: hidden;*/   
+    overflow: hidden;  
 }
 
 span {
@@ -20,7 +22,8 @@ span {
     color: white;
     cursor: pointer;
     position: absolute;
-    right: 5%;
+    top: 5px;
+    right: 25px;
     margin: 5px;
 }
 
@@ -43,6 +46,13 @@ p {
 }
 
 /*------Astros------*/
+
+.estrelas {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+}
 
 #sol {
     height: 5.12vw;

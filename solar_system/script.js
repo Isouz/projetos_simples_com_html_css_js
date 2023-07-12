@@ -1,21 +1,41 @@
-
-
-var active = false
+var fundo = document.getElementById('fundo')
+var ativo = false
 
 function descricao() {
-    
     var buttom = document.getElementsByClassName("material-symbols-outlined")[0]
-    var nome = document.querySelector('p.nome')
     
-    if (active == false) {
-        active = true
+    
+    if (ativo == false) {
+        ativo = true
         buttom.innerText = 'toggle_on'
-        nome.style.visibility = 'visible'   
+        for (let i = 0 ; i <= 8; i++) {
+            var nome = document.getElementsByClassName('nome')[i]
+            nome.style.visibility = 'visible' 
+        }
         
     } else {
-        active = false
+        ativo = false
         buttom.innerText = 'toggle_off'
-        nome.style.visibility = 'hidden'
+        for (let i = 0 ; i <= 8; i++) {
+            var nome = document.getElementsByClassName('nome')[i]
+            nome.style.visibility = 'hidden' 
+        }
     }
 }
+
+
+function criarEstrelas() {
+    for (let i=0; i < 500; i ++) {
+        let estrelas = document.createElement('div')
+        estrelas.className = 'estrelas'
+        estrelas.style.height = '1.5px'
+        estrelas.style.width = '1.5px'
+        estrelas.style.top = Math.random() * 100 + '%'
+        estrelas.style.left = Math.random() * 100 + '%'
+        estrelas.style.opacity = Math.random() * 100 + '%'
+        fundo.appendChild(estrelas)
+    }
+}
+
+criarEstrelas()
 
