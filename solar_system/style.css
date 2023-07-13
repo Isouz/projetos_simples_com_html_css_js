@@ -1,5 +1,102 @@
 @charset "UTF-8";
 
+@media screen and (orientation: portrait) {
+    #sol {
+        height: 8.45vw;
+        width: 8.45vw;
+    }
+    
+    #mer {
+        height: 1.2vw;
+        width: 1.2vw;
+    }
+    
+    #ven {
+        height: 2.4vw;
+        width: 2.4vw;
+    }
+    
+    #ter {
+        height: 2.65vw;
+        width: 2.65vw;
+    } 
+    
+    #lua {
+        height: 1.2vw;
+        width: 1.2vw;
+    }
+    
+    #mar {
+        height: 1.39vw;
+        width: 1.39vw; 
+    }
+    
+    #jup {
+        height: 2.29vw;
+        width: 2.29vw; 
+    }
+    
+    #sat {
+        height: 4.7vw;
+        width: 4.7vw;
+    }
+    
+    #ura {
+        height: 3.86vw;
+        width: 3.86vw; 
+    }
+    
+    #net {
+        height: 3.86vw;
+        width: 3.86vw;
+    } 
+    
+    /*-----Orbitas------*/
+    
+    .orbit_mer {
+        height:19.03vw;
+        width: 19.03vw;  
+    }
+    
+    .orbit_ven {
+        height: 29.64vw;
+        width: 29.64vw;
+    }
+    
+    .orbit_ter {
+        height: 37.77vw;
+        width: 37.77vw;
+    }
+    
+    .orbit_mar {
+        height: 50.45vw;
+        width: 50.45vw;
+    }
+    
+    .orbit_jup {
+        height: 62.54vw;
+        width: 62.54vw;
+    }
+    
+    .orbit_sat {
+        height: 74.63vw;
+        width: 74.63vw;
+    }
+    
+    .orbit_ura {
+        height: 84.31vw;
+        width: 84.31vw;
+    }
+    
+    .orbit_net {
+        height: 93.99vw;
+        width: 93.99vw;
+    }
+}
+
+
+/*=============================*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -55,8 +152,8 @@ p {
 }
 
 #sol {
-    height: 5.12vw;
-    width: 5.12vw;
+    height: 8.45vh;
+    width: 8.45vh;
     background-color: yellow;
     box-shadow: 0px 0px 10px yellow;
 }
@@ -64,16 +161,16 @@ p {
 #mer {
     top: 100%;
     left: 50%;
-    height: 0.73vw;
-    width: 0.73vw;
+    height: 1.2vh;
+    width: 1.2vh;
     background-color: #C28E6A;
 }
 
 #ven {
     top: 100%;
     left: 50%;
-    height: 1.46vw;
-    width: 1.46vw;
+    height: 2.4vh;
+    width: 2.4vh;
     background-color: #CC7016;
 }
 
@@ -81,8 +178,8 @@ p {
     display: flex;
     top: 100%;
     left: 50%;
-    height: 1.61vw;
-    width: 1.61vw;
+    height: 2.65vh;
+    width: 2.65vh;
     background-color: blue; 
     animation: anim_orbit 2.7s linear infinite;
 } 
@@ -91,8 +188,8 @@ p {
     display: flex;
     top: 160%;
     left: 50%;
-    height: 0.73vw;
-    width: 0.73vw;
+    height: 1.2vh;
+    width: 1.2vh;
     background-color: silver; 
     box-shadow: 0px 0px 3px silver;
 }
@@ -108,90 +205,90 @@ p {
 #jup {
     top: 100%;
     left: 50%;
-    height: 3.22vw;
-    width: 3.22vw;
+    height: 2.29vh;
+    width: 2.29vh;
     background-color: rgb(172, 119, 5);  
 }
 
 #sat {
     top: 100%;
     left: 50%;
-    height: 2.85vw;
-    width: 2.85vw;
+    height: 4.7vh;
+    width: 4.7vh;
     background-color: rgb(245, 228, 81);  
 }
 
 #ura {
     top: 100%;
     left: 50%;
-    height: 2.34vw;
-    width: 2.34vw;
+    height: 3.86vh;
+    width: 3.86vh;
     background-color: rgb(106, 247, 247);  
 }
 
 #net {
     top: 100%;
     left: 50%;
-    height: 2.34vw;
-    width: 2.34vw;
+    height: 3.86vh;
+    width: 3.86vh;
     background-color: #2f52ec;  
 }
 
 /*-----Orbitas------*/
 
 .orbit_mer {
-    height:11.71vw;
-    width: 11.71vw;
+    height:19.03vh;
+    width: 19.03vh;
     border: 0.8px solid silver;
     animation: anim_orbit 8.8s linear infinite;
     
 }
 
 .orbit_ven {
-    height:15.37vw;
-    width: 15.37vw;
+    height: 29.64vh;
+    width: 29.64vh;
     border: 1px solid silver;
     animation: anim_orbit 24.3s linear infinite;
 }
 
 .orbit_ter {
-    height:23.06vw;
-    width: 23.06vw;
+    height: 37.77vh;
+    width: 37.77vh;
     border: 1px solid silver;
     animation: anim_orbit 36.5s linear infinite;
 }
 
 .orbit_mar {
-    height:30.74vw;
-    width: 30.74vw;
+    height: 50.45vh;
+    width: 50.45vh;
     border: 1px solid silver;
     animation: anim_orbit 68.7s linear infinite;
 }
 
 .orbit_jup {
-    height:38.06vw;
-    width: 38.06vw;
+    height: 62.54vh;
+    width: 62.54vh;
     border: 1px solid silver;
     animation: anim_orbit 438.0s linear infinite;
 }
 
 .orbit_sat {
-    height:45.38vw;
-    width: 45.38vw;
+    height: 74.63vh;
+    width: 74.63vh;
     border: 1px solid silver;
     animation: anim_orbit 1075.5s linear infinite;
 }
 
 .orbit_ura {
-    height:51.24vw;
-    width: 51.24vw;
+    height: 84.31vh;
+    width: 84.31vh;
     border: 1px solid silver;
     animation: anim_orbit 3068.7s linear infinite;
 }
 
 .orbit_net {
-    height:57.10vw;
-    width: 57.10vw;
+    height: 93.99vh;
+    width: 93.99vh;
     border: 1px solid silver;
     animation: anim_orbit 6019.0s linear infinite;
 }
