@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@media screen and (orientation: portrait) {
+    #sol {
+        height: 8.45vw;
+        width: 8.45vw;
+    }
+    
+    #mer {
+        height: 1.2vw;
+        width: 1.2vw;
+    }
+    
+    #ven {
+        height: 2.4vw;
+        width: 2.4vw;
+    }
+    
+    #ter {
+        height: 2.65vw;
+        width: 2.65vw;
+    } 
+    
+    #lua {
+        height: 1.2vw;
+        width: 1.2vw;
+    }
+    
+    #mar {
+        height: 1.39vw;
+        width: 1.39vw; 
+    }
+    
+    #jup {
+        height: 2.29vw;
+        width: 2.29vw; 
+    }
+    
+    #sat {
+        height: 4.7vw;
+        width: 4.7vw;
+    }
+    
+    #ura {
+        height: 3.86vw;
+        width: 3.86vw; 
+    }
+    
+    #net {
+        height: 3.86vw;
+        width: 3.86vw;
+    } 
+    
+    /*-----Orbitas------*/
+    
+    .orbit_mer {
+        height:19.03vw;
+        width: 19.03vw;  
+    }
+    
+    .orbit_ven {
+        height: 29.64vw;
+        width: 29.64vw;
+    }
+    
+    .orbit_ter {
+        height: 37.77vw;
+        width: 37.77vw;
+    }
+    
+    .orbit_mar {
+        height: 50.45vw;
+        width: 50.45vw;
+    }
+    
+    .orbit_jup {
+        height: 62.54vw;
+        width: 62.54vw;
+    }
+    
+    .orbit_sat {
+        height: 74.63vw;
+        width: 74.63vw;
+    }
+    
+    .orbit_ura {
+        height: 84.31vw;
+        width: 84.31vw;
+    }
+    
+    .orbit_net {
+        height: 93.99vw;
+        width: 93.99vw;
+    }
+}
