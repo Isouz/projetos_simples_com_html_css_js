@@ -1,9 +1,8 @@
 var fundo = document.getElementById('fundo')
+var buttom = document.getElementsByClassName("material-symbols-outlined")[0]
 var ativo = false
 
 function descricao() {
-    var buttom = document.getElementsByClassName("material-symbols-outlined")[0]
-    
     
     if (ativo == false) {
         ativo = true

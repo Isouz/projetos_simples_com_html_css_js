@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-/*=============================*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -19,7 +17,7 @@ body {
     overflow: hidden;  
 }
 
-span {
+#fundo .material-symbols-outlined {
     display: inline-block;
     color: white;
     cursor: pointer;
@@ -27,8 +25,8 @@ span {
     top: 5px;
     right: 25px;
     margin: 5px;
+    font-size: 2em;
 }
-
 
 div {
     display: inline-block;
