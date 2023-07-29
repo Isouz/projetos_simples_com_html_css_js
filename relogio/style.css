@@ -20,7 +20,7 @@ div {
     height: 15vw;
     width: 25vw;
     max-width: 270px;
-    min-width: 120px;
+    min-width: 100px;
     border: 2px solid #BB0000;
     border-radius: 10px; 
     margin: 3px;
@@ -46,6 +46,7 @@ div {
 }
 
 .container #min::after {
+    
     content: 'Min';
     font-size: 16px;
 }
