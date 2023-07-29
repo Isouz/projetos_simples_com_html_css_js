@@ -17,14 +17,16 @@
 }
 
 div {
-    height: 100px;
-    width: 180px;
+    height: 15vw;
+    width: 20vw;
+    max-width: 270px;
+    min-width: 140px;
     border: 2px solid #BB0000;
     border-radius: 10px; 
-    margin: 10px;
+    margin: 3px;
     text-align: center;
     text-shadow: 1px 1px 1px black;
-    font-size: 80px;
+    font-size: 9.5vw;
     font-weight: bold;
     color: #DDDEC6;
 }
@@ -34,10 +36,31 @@ div {
     border-radius: 10px;
 }
 
+.container #hora::after {
+    content: 'Hora';
+    font-size: 16px;
+}
+
 .container #min {
     background-image: linear-gradient(to bottom, #BB0000, black);
+}
+
+.container #min::after {
+    content: 'Min';
+    font-size: 16px;
 }
 
 .container #seg {
     background-image: linear-gradient(to top, black, #BB0000);
 }
+
+.container #seg::after {
+    content: 'Seg';
+    font-size: 16px;
+}
+
+
+/*
+nomes - hora, min e seg, abaixo das divs
+max-width
+responsividade*/
