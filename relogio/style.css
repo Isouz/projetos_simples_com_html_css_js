@@ -18,9 +18,9 @@
 
 div {
     height: 15vw;
-    width: 20vw;
+    width: 25vw;
     max-width: 270px;
-    min-width: 140px;
+    min-width: 120px;
     border: 2px solid #BB0000;
     border-radius: 10px; 
     margin: 3px;
