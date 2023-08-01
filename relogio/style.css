@@ -14,9 +14,12 @@
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(to bottom, black, #3a3939, black);
+    overflow: hidden;
 }
 
 div {
+    display: flex;
+    flex-direction: column;
     height: 15vw;
     width: 25vw;
     max-width: 270px;
