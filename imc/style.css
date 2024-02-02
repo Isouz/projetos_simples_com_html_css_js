@@ -20,11 +20,10 @@ main {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 20px;
-    height: 500px;
+    height: 460px;
     border: 1px solid #024059;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
     background-image: linear-gradient(#0388A6, #05F2DB);
-
     text-align: center;
 }
 
@@ -49,11 +48,16 @@ section {
 }
 
 table {
-    margin: auto;
+    margin: 20px auto;
     border-collapse: collapse;
 }
 
 td {
     border: 1px solid #024059;
     padding: 5px;
+}
+
+th {
+    padding: 3px;
+    text-align: left;
 }
