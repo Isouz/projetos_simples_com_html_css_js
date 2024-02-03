@@ -11,7 +11,7 @@
         <h1>Calculadora de IMC</h1>
 
         <section>
-            <span class="label">Sexo</span> <br>
+            <span class="label">Sexo</span>
             <input type="radio" name="sexo" id="m">
             <label for="sexo">Masculino</label>
             
@@ -21,18 +21,13 @@
         </section>
 
         <section>
-            <span class="label">Idade</span>
-            <input type="number" name="idade" id="idade" placeholder="  Ex: 35" required>
-        </section>
-
-        <section>
             <span class="label">Altura</span>
-            <input type="number" name="altura" id="altura" placeholder="  Ex 1.75" step="0.01" required>
+            <input type="number" name="altura" id="altura" placeholder="  Ex 1.75" step="0.01">
         </section>
 
         <section>
             <span class="label">Peso</span>
-            <input type="number" name="peso" id="peso" placeholder="  Ex: 70" step="0.1" required> 
+            <input type="number" name="peso" id="peso" placeholder="  Ex: 70" step="0.1"> 
         </section>
 
         <section>
@@ -51,7 +46,7 @@
             <th>IMC</th>
             <th>Classificação</th>
         </thead>
-        <tbody>
+        <tbody id="tabela">
             <tr id="lin1">
                 <td>Menor que 18,5</td>
                 <td>Magreza</td>
