@@ -22,7 +22,10 @@ const linha6 = document.getElementById('lin6')
 
 function calcular() {
     
-    document.getElementById('tabela').style.backgroundColor = 'white'
+    // Limpando a seleção
+    for (let i = 1; i <= 6; i++) {
+        document.getElementById(`lin${i}`).classList.remove('selecionado')
+    }
     
     let altura = Number(document.getElementById('altura').value)
     let peso = Number(document.getElementById('peso').value)
