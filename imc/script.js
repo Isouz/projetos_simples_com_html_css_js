@@ -27,6 +27,8 @@ function calcular() {
         document.getElementById(`lin${i}`).classList.remove('selecionado')
     }
     
+    let boneco = document.getElementById('boneco')
+    let masculino = document.getElementById('masc')
     let altura = Number(document.getElementById('altura').value)
     let peso = Number(document.getElementById('peso').value)
     let resultado = document.getElementById('resultado')
@@ -39,21 +41,59 @@ function calcular() {
     if (imc <= 18.5) {
         descricao.innerHTML = descricao1
         linha1.classList.add('selecionado')
+
+        if (masculino.checked) {
+            boneco.src = 'imagens/masculino/magreza.png'
+        } else {
+            boneco.src = 'imagens/femenino/magreza.png'
+        }
+
     } else if (imc <= 24.9){
         descricao.innerHTML =  descricao2
         linha2.classList.add('selecionado')
+
+        if (masculino.checked) {
+            boneco.src = 'imagens/masculino/normal.png'
+        } else {
+            boneco.src = 'imagens/femenino/normal.png'
+        }
+
     } else if(imc <= 29.9) {
         descricao.innerHTML = descricao3
         linha3.classList.add('selecionado')
+
+        if (masculino.checked) {
+            boneco.src = 'imagens/masculino/sobrepeso.png'
+        } else {
+            boneco.src = 'imagens/femenino/sobrepeso.png'
+        }
     } else if(imc <= 34.9) {
         descricao.innerHTML = descricao4
         linha4.classList.add('selecionado')
+
+        if (masculino.checked) {
+            boneco.src = 'imagens/masculino/obesidade1.png'
+        } else {
+            boneco.src = 'imagens/femenino/obesidade1.png'
+        }
     } else if(imc <= 39.9) {
         descricao.innerHTML = descricao5
         linha5.classList.add('selecionado')
+
+        if (masculino.checked) {
+            boneco.src = 'imagens/masculino/obesidade2.png'
+        } else {
+            boneco.src = 'imagens/femenino/obesidade2.png'
+        }
     } else {
         descricao.innerHTML = descricao6
         linha6.classList.add('selecionado')
+
+        if (masculino.checked) {
+            boneco.src = 'imagens/masculino/obesidade3.png'
+        } else {
+            boneco.src = 'imagens/femenino/obesidade3.png'
+        }
     }
 }
 
